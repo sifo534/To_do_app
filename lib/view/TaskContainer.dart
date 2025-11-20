@@ -1,7 +1,7 @@
-import 'package:app/Controller/homeController.dart';
-import 'package:app/Model/model.dart';
-import 'package:app/size_config.dart';
-import 'package:app/view/DetailsOfTask.dart';
+import '../Controller/homeController.dart';
+import '../Model/model.dart';
+import '../size_config.dart';
+import 'DetailsOfTask.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

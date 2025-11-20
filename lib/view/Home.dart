@@ -1,8 +1,8 @@
-import 'package:app/Controller/homeController.dart';
-import 'package:app/Model/model.dart';
-import 'package:app/size_config.dart';
-import 'package:app/view/TaskContainer.dart';
-import 'package:app/view/addTask.dart';
+import '../Controller/homeController.dart';
+import '../Model/model.dart';
+import '../size_config.dart';
+import 'TaskContainer.dart';
+import 'addTask.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';

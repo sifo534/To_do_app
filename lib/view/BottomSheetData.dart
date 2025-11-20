@@ -1,12 +1,12 @@
 import 'dart:ui';
 
-import 'package:app/Controller/homeController.dart';
-import 'package:app/Model/model.dart';
-import 'package:app/custom/MaterialBtn.dart';
-import 'package:app/size_config.dart';
-import 'package:app/view/Home.dart';
-import 'package:app/view/calenderContainer.dart';
-import 'package:app/view/timeContainer.dart';
+import '../Controller/homeController.dart';
+import '../Model/model.dart';
+import '../custom/MaterialBtn.dart';
+import '../size_config.dart';
+import 'Home.dart';
+import 'calenderContainer.dart';
+import 'timeContainer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:get/get.dart';

@@ -1,5 +1,5 @@
-import 'package:app/Controller/homeController.dart';
-import 'package:app/size_config.dart';
+import '../Controller/homeController.dart';
+import '../size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';

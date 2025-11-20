@@ -1,5 +1,5 @@
-import 'package:app/size_config.dart';
-import 'package:app/view/calenderContainer.dart';
+import '../size_config.dart';
+import 'calenderContainer.dart';
 import 'package:flutter/material.dart';
 
 class Notifications extends StatelessWidget {

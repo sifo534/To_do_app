@@ -1,7 +1,7 @@
-import 'package:app/size_config.dart';
-import 'package:app/view/Home.dart';
-import 'package:app/view/Notification.dart';
-import 'package:app/view/addTask.dart';
+import 'size_config.dart';
+import 'view/Home.dart';
+import 'view/Notification.dart';
+import 'view/addTask.dart';
 import 'package:flutter/material.dart';
 
 class bottom extends StatefulWidget {

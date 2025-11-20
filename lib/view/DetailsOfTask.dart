@@ -1,6 +1,6 @@
-import 'package:app/Controller/homeController.dart';
-import 'package:app/custom/MaterialBtn.dart';
-import 'package:app/size_config.dart';
+import '../Controller/homeController.dart';
+import '../custom/MaterialBtn.dart';
+import '../size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
@@ -37,8 +37,8 @@ class _DetailsTaskState extends State<DetailsTask> {
             color: Color.fromARGB(255, 53, 126, 90),
             child: Padding(
               padding: EdgeInsets.only(
-                  bottom: 7 * SizeConfig.heightMultiplier,
-                  left: 3 * SizeConfig.widthMultiplier),
+                  bottom: (7 * SizeConfig.heightMultiplier).toDouble(),
+                  left: (3 * SizeConfig.widthMultiplier).toDouble()),
               child: Row(
                 children: [
                   IconButton(
@@ -49,58 +49,58 @@ class _DetailsTaskState extends State<DetailsTask> {
                     color: Colors.white,
                   ),
                   SizedBox(
-                    width: 15 * SizeConfig.widthMultiplier,
+                    width: (15 * SizeConfig.widthMultiplier).toDouble(),
                   ),
                   Text(
                     'Details of Task',
                     style: TextStyle(
                         fontWeight: FontWeight.w700,
                         color: Colors.white,
-                        fontSize: 3 * SizeConfig.heightMultiplier),
+                        fontSize: (3 * SizeConfig.heightMultiplier).toDouble()),
                   )
                 ],
               ),
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(top: 11.5 * SizeConfig.heightMultiplier),
+            padding: EdgeInsets.only(top: (11.5 * SizeConfig.heightMultiplier).toDouble()),
             child: Padding(
               padding: EdgeInsets.symmetric(
-                  horizontal: 4 * SizeConfig.widthMultiplier),
+                  horizontal: (4 * SizeConfig.widthMultiplier).toDouble()),
               child: Container(
-                height: 90 * SizeConfig.heightMultiplier,
+                height: (90.0 * SizeConfig.heightMultiplier).toDouble(),
                 decoration: BoxDecoration(
                     color: Color.fromARGB(255, 243, 242, 242),
                     borderRadius: BorderRadius.circular(8)),
                 child: Column(
                   children: [
                     SizedBox(
-                      height: 3 * SizeConfig.heightMultiplier,
+                      height: (3 * SizeConfig.heightMultiplier).toDouble(),
                     ),
                     Row(
                       children: [
                         SizedBox(
-                          width: 3.8 * SizeConfig.widthMultiplier,
+                          width: (3.8 * SizeConfig.widthMultiplier).toDouble(),
                         ),
                         Text(
                           'Title:',
                           style: TextStyle(
                               fontWeight: FontWeight.w600,
                               color: Colors.black,
-                              fontSize: 3 * SizeConfig.heightMultiplier),
+                              fontSize: (3 * SizeConfig.heightMultiplier).toDouble()),
                         ),
                       ],
                     ),
                     SizedBox(
-                      height: 1 * SizeConfig.heightMultiplier,
+                      height: (1 * SizeConfig.heightMultiplier).toDouble(),
                     ),
                     Container(
-                      height: 6 * SizeConfig.heightMultiplier,
-                      width: 100 * SizeConfig.widthMultiplier,
+                      height: (6 * SizeConfig.heightMultiplier).toDouble(),
+                      width: (100 * SizeConfig.widthMultiplier).toDouble(),
                       color: Color.fromARGB(255, 201, 201, 201),
                       child: Padding(
                         padding: EdgeInsets.only(
-                          left: 4 * SizeConfig.widthMultiplier,
+                          left: (4 * SizeConfig.widthMultiplier).toDouble(),
                         ),
                         child: Row(
                           children: [
@@ -108,13 +108,13 @@ class _DetailsTaskState extends State<DetailsTask> {
                               widget.item.Title!,
                               style: TextStyle(
                                   color: Colors.black,
-                                  fontSize: 3 * SizeConfig.heightMultiplier,
+                                  fontSize: (3.0 * SizeConfig.heightMultiplier).toDouble(),
                                   fontWeight: FontWeight.w600),
                             ),
                             Spacer(),
                             Container(
-                              height: 4.5 * SizeConfig.heightMultiplier,
-                              width: 25 * SizeConfig.widthMultiplier,
+                              height: (4.5 * SizeConfig.heightMultiplier).toDouble(),
+                              width: (25.0 * SizeConfig.widthMultiplier).toDouble(),
                               decoration: BoxDecoration(
                                   color: Color.fromARGB(255, 45, 146, 95),
                                   borderRadius: BorderRadius.circular(8)),
@@ -125,12 +125,12 @@ class _DetailsTaskState extends State<DetailsTask> {
                                       fontWeight: FontWeight.w700,
                                       color: Colors.white,
                                       fontSize:
-                                          2.2 * SizeConfig.heightMultiplier),
+                                          (2.2 * SizeConfig.heightMultiplier).toDouble()),
                                 ),
                               ),
                             ),
                             SizedBox(
-                              width: 4 * SizeConfig.widthMultiplier,
+                              width: (4 * SizeConfig.widthMultiplier).toDouble(),
                             )
                           ],
                         ),
@@ -138,16 +138,16 @@ class _DetailsTaskState extends State<DetailsTask> {
                     ),
                     Padding(
                       padding: EdgeInsets.only(
-                          left: 4 * SizeConfig.widthMultiplier,
-                          top: 2 * SizeConfig.heightMultiplier,
-                          bottom: 2 * SizeConfig.heightMultiplier),
+                          left: (4 * SizeConfig.widthMultiplier).toDouble(),
+                          top: (2 * SizeConfig.heightMultiplier).toDouble(),
+                          bottom: (2 * SizeConfig.heightMultiplier).toDouble()),
                       child: Row(
                         children: [
                           Text(
                             'Discription',
                             style: TextStyle(
                                 color: Color.fromARGB(255, 136, 136, 136),
-                                fontSize: 2.5 * SizeConfig.heightMultiplier,
+                                fontSize: (2.5 * SizeConfig.heightMultiplier).toDouble(),
                                 fontWeight: FontWeight.w500),
                           ),
                         ],
@@ -155,10 +155,10 @@ class _DetailsTaskState extends State<DetailsTask> {
                     ),
                     Padding(
                       padding: EdgeInsets.symmetric(
-                          horizontal: 4 * SizeConfig.widthMultiplier),
+                          horizontal: (4 * SizeConfig.widthMultiplier).toDouble()),
                       child: Container(
-                        height: 18 * SizeConfig.heightMultiplier,
-                        width: 100 * SizeConfig.widthMultiplier,
+                        height: (18 * SizeConfig.heightMultiplier).toDouble(),
+                        width: (100 * SizeConfig.widthMultiplier).toDouble(),
                         decoration: BoxDecoration(
                             color: Color.fromARGB(255, 237, 237, 237),
                             borderRadius: BorderRadius.circular(8),
@@ -174,27 +174,27 @@ class _DetailsTaskState extends State<DetailsTask> {
                     ),
                     Padding(
                       padding: EdgeInsets.symmetric(
-                          horizontal: 0 * SizeConfig.widthMultiplier,
-                          vertical: 4 * SizeConfig.heightMultiplier),
+                          horizontal: (0 * SizeConfig.widthMultiplier).toDouble(),
+                          vertical: (4 * SizeConfig.heightMultiplier).toDouble()),
                       child: Container(
-                        height: 7 * SizeConfig.heightMultiplier,
-                        width: 100 * SizeConfig.widthMultiplier,
+                        height: (7 * SizeConfig.heightMultiplier).toDouble(),
+                        width: (100 * SizeConfig.widthMultiplier).toDouble(),
                         color: Color.fromARGB(255, 201, 201, 201),
                         child: Row(
                           children: [
                             SizedBox(
-                              width: 4 * SizeConfig.widthMultiplier,
+                              width: (4 * SizeConfig.widthMultiplier).toDouble(),
                             ),
                             Text(
                               'Due Date',
                               style: TextStyle(
                                   fontWeight: FontWeight.w700,
-                                  fontSize: 2.5 * SizeConfig.heightMultiplier),
+                                  fontSize: (2.5 * SizeConfig.heightMultiplier).toDouble()),
                             ),
                             Spacer(),
                             Container(
-                              height: 4.5 * SizeConfig.heightMultiplier,
-                              width: 30 * SizeConfig.widthMultiplier,
+                              height: (4.5 * SizeConfig.heightMultiplier).toDouble(),
+                              width: (30 * SizeConfig.widthMultiplier).toDouble(),
                               decoration: BoxDecoration(
                                   color: Color.fromARGB(255, 45, 146, 95),
                                   borderRadius: BorderRadius.circular(8)),
@@ -203,14 +203,13 @@ class _DetailsTaskState extends State<DetailsTask> {
                                   widget.item.Date!,
                                   style: TextStyle(
                                       fontWeight: FontWeight.w700,
-                                      fontSize:
-                                          2.2 * SizeConfig.heightMultiplier,
+                                      fontSize: (2.2 * SizeConfig.heightMultiplier).toDouble(),
                                       color: Colors.white),
                                 ),
                               ),
                             ),
                             SizedBox(
-                              width: 4 * SizeConfig.widthMultiplier,
+                              width: (4 * SizeConfig.widthMultiplier).toDouble(),
                             ),
                           ],
                         ),
@@ -220,14 +219,14 @@ class _DetailsTaskState extends State<DetailsTask> {
                       'How much Work is Done ?',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 3 * SizeConfig.heightMultiplier),
+                          fontSize: (3 * SizeConfig.heightMultiplier).toDouble()),
                     ),
                     Padding(
                       padding: EdgeInsets.only(
-                          left: 4 * SizeConfig.widthMultiplier,
-                          top: 4 * SizeConfig.heightMultiplier),
+                          left: (4 * SizeConfig.widthMultiplier).toDouble(),
+                          top: (4 * SizeConfig.heightMultiplier).toDouble()),
                       child: Container(
-                          height: 7 * SizeConfig.heightMultiplier,
+                          height: (7 * SizeConfig.heightMultiplier).toDouble(),
                           child: ListView.builder(
                               itemCount: 4,
                               scrollDirection: Axis.horizontal,
@@ -236,7 +235,7 @@ class _DetailsTaskState extends State<DetailsTask> {
                                     homeController.PercentNummber[index];
                                 return Padding(
                                   padding: EdgeInsets.only(
-                                      left: 3 * SizeConfig.widthMultiplier),
+                                      left: (3 * SizeConfig.widthMultiplier).toDouble()),
                                   child: InkWell(
                                     onTap: () {
                                       homeController.containerBorder.value =
@@ -244,9 +243,8 @@ class _DetailsTaskState extends State<DetailsTask> {
                                     },
                                     child: Obx(
                                       () => Container(
-                                        height:
-                                            5.5 * SizeConfig.heightMultiplier,
-                                        width: 17 * SizeConfig.widthMultiplier,
+                                        height: (5.5 * SizeConfig.heightMultiplier).toDouble(),
+                                        width: (17 * SizeConfig.widthMultiplier).toDouble(),
                                         decoration: BoxDecoration(
                                             color: homeController
                                                 .PercentNummber[index]
@@ -267,9 +265,7 @@ class _DetailsTaskState extends State<DetailsTask> {
                                                 .toString(),
                                             style: TextStyle(
                                                 fontWeight: FontWeight.bold,
-                                                fontSize: 2.5 *
-                                                    SizeConfig
-                                                        .heightMultiplier),
+                                                fontSize: (2.5 * SizeConfig.heightMultiplier).toDouble()),
                                           ),
                                         ),
                                       ),
@@ -279,11 +275,11 @@ class _DetailsTaskState extends State<DetailsTask> {
                               })),
                     ),
                     SizedBox(
-                      height: 5 * SizeConfig.heightMultiplier,
+                      height: (5 * SizeConfig.heightMultiplier).toDouble(),
                     ),
                     MaterialButton(
                       shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12)),
+                          borderRadius: BorderRadius.circular(12.0)),
                       color: Colors.black,
                       onPressed: () {
                         homeController.model[widget.index!] = Model(
@@ -312,14 +308,14 @@ class _DetailsTaskState extends State<DetailsTask> {
                       },
                       child: Padding(
                         padding: EdgeInsets.only(
-                            left: 8 * SizeConfig.widthMultiplier,
-                            right: 8 * SizeConfig.widthMultiplier,
-                            top: 1 * SizeConfig.heightMultiplier,
-                            bottom: 1 * SizeConfig.heightMultiplier),
+                            left: (8.0 * SizeConfig.widthMultiplier).toDouble(),
+                            right: (8.0 * SizeConfig.widthMultiplier).toDouble(),
+                            top: (1.0 * SizeConfig.heightMultiplier).toDouble(),
+                            bottom: (1.0 * SizeConfig.heightMultiplier).toDouble()),
                         child: Text(
                           'Save',
                           style: TextStyle(
-                              fontSize: 3 * SizeConfig.heightMultiplier,
+                              fontSize: 3.0 * SizeConfig.heightMultiplier,
                               color: Colors.white),
                         ),
                       ),

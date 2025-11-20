@@ -1,11 +1,9 @@
-import 'package:app/Controller/homeController.dart';
-import 'package:app/view/calenderContainer.dart';
-
+import '../Controller/homeController.dart';
+import 'calenderContainer.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 import 'package:omni_datetime_picker/omni_datetime_picker.dart';
-
 import '../size_config.dart';
 
 class Time extends StatefulWidget {

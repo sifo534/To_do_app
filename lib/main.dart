@@ -1,5 +1,5 @@
-import 'package:app/size_config.dart';
-import 'package:app/view/splash.dart';
+import 'size_config.dart';
+import 'view/splash.dart';
 
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';

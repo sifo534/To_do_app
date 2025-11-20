@@ -1,4 +1,4 @@
-import 'package:app/size_config.dart';
+import '../size_config.dart';
 import 'package:flutter/material.dart';
 
 class AddTask extends StatelessWidget {
